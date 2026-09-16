@@ -1,0 +1,58 @@
+import matplotlib.pyplot as plt
+
+
+def graphique_evolution(
+    df,
+    periode,
+    indicateur,
+    titre
+):
+    """
+    Génère un graphique d'évolution.
+    """
+
+    plt.figure(figsize=(10, 6))
+
+    plt.plot(
+        df[periode],
+        df[indicateur],
+        marker="o"
+    )
+
+    plt.title(titre)
+    plt.xlabel(periode)
+    plt.ylabel(indicateur)
+
+    plt.xticks(rotation=45)
+
+    plt.tight_layout()
+
+    return plt
+
+
+def graphique_comparaison(
+    df,
+    categorie,
+    indicateur,
+    titre
+):
+    """
+    Génère un graphique de comparaison.
+    """
+
+    plt.figure(figsize=(10, 6))
+
+    plt.bar(
+        df[categorie],
+        df[indicateur]
+    )
+
+    plt.title(titre)
+    plt.xlabel(categorie)
+    plt.ylabel(indicateur)
+
+    plt.xticks(rotation=45)
+
+    plt.tight_layout()
+
+    return plt
