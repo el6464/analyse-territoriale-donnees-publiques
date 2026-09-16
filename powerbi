@@ -1,0 +1,46 @@
+# Restitution BI – Power BI
+
+## Objectif
+
+La partie Business Intelligence permet de restituer les indicateurs territoriaux sous forme de tableau de bord interactif.
+
+Les données utilisées dans le cadre professionnel sont confidentielles et ne sont pas publiées dans ce dépôt.
+
+## Indicateurs suivis
+
+Le tableau de bord permet notamment de suivre :
+
+- l'évolution de la population ;
+- l'évolution des ménages ;
+- les indicateurs territoriaux ;
+- les évolutions par période ;
+- les comparaisons entre territoires.
+
+## Fonctionnalités
+
+- Cartes KPI
+- Filtres temporels
+- Filtres territoriaux
+- Graphiques d'évolution
+- Comparaisons entre territoires
+- Tableaux de synthèse
+- Interaction entre les différents visuels
+
+## Modélisation
+
+La préparation des données est réalisée en amont avec SQL/Python.
+
+Power BI est ensuite utilisé pour :
+
+1. importer les données préparées ;
+2. créer le modèle de données ;
+3. créer les mesures DAX ;
+4. construire les indicateurs ;
+5. créer les visualisations ;
+6. produire un tableau de bord interactif.
+
+## Confidentialité
+
+Les données professionnelles originales ne sont pas publiées.
+
+Le dépôt présente uniquement la démarche et les éléments techniques pouvant être partagés.
